@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Q.1 I don't remember my password?"
+        android:textColor="#FF2B1D"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="10dp"
+        android:text="A.1 You have already created an account but you can't
+        remember your password? Click on 'Login/Sign Up' at the top of the
+        page. Then click on 'Forgot Password?'. Fill out your phone number
+        and a password recovery will be sent to you by phone."
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

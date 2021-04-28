@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/teal_200">
+
+    <ImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_header_person"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/titleOfHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Higher Order Functionality"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@+id/imgPerson"
+        android:layout_marginStart="20dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Higher Order Functionality"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/titleOfHeader"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        >
+    </TextView>
+
+</RelativeLayout>

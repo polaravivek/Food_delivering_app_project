@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="3dp"
+    app:cardElevation="10dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/favorite_llayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:id="@+id/favFoodImage"
+            android:src="@mipmap/ic_launcher_round"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/favFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Food Name"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/favFoodCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="cost"
+            android:layout_gravity="center"
+            android:textColor="#179F45"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/favFoodRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Rating"
+            android:layout_gravity="center"
+            android:textColor="#E3D702"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:id="@+id/btnFavouriteAlready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:src="@drawable/ic_filled_favorite" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
